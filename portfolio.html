@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <!-- Содержание -->
+    <header class="header">
+        <div class="container">
+                       
+        <nav class="navigation">
+            <a href="https://google.com" class="logo1 navigation__logo1 link"><span class="logo navigation__logo">Web</span>Studio</a>
+        
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="index.html" class="navigation__link link">Студія</a>
+                    </li>
+                    <li class="navigation__item"><a href="portfolio.html" class="navigation__link link current">Портфоліо</a>
+                    </li>
+                    <li class="navigation__item">
+                    <a href="#contaсt" class="navigation__link link">Контакти</a>
+                    </li>
+                </ul>
+                <ul class="navigation__info">
+                    <li class="navigation__ite">
+                        <a href="mailto:info@devstudio.com" class="href-hedd link">
+                            <svg class="navigation__icon" width="16px" height="12px">
+                                <use href="./img/icons.svg#icon-envelope-hover"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="navigation__ite">
+                        <a href="tel:+380961111111" class="href-hedd link">
+                            <svg class="navigation__icon" width="10px" height="16px">
+                                <use href="./img/icons.svg#icon-smartphone"></use>
+                            </svg>
+                            +380961111111
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="container">
+                <!-- Внимание невидимка -->
+                <h3 class="visually-hidden">Проекти</h3>
+                <ul class="button-work">
+                    <li class="button-navi">
+                        <button type="button" class="pointer1a btn2">Все</button>
+                    </li>
+                    <li class="button-navi">
+                        <button type="button" class="pointer1 btn2">Веб-сайти</button>
+                    </li>
+                    <li class="button-navi">
+                        <button type="button" class="pointer1 btn2">Додатки</button>
+                    </li>
+                    <li class="button-navi">
+                        <button type="button" class="pointer1 btn2">Дизайн</button>
+                    </li>
+                    <li class="button-navi">
+                        <button type="button" class="pointer1 btn2">Маркетинг</button>
+                    </li>
+                </ul>
+                <!-- Образцы работ-->
+                <!-- Внимание невидимка -->
+                <h3 class="visually-hidden img-hidden">Проекти</h3>
+                <ul class="img-project">
+                            <li class="img1 flex-element">
+                                <div class="img1-wrap">
+                                <img src="./img/portfolio/hack.jpg" alt="работа" width="370" height="294">
+                                <p class="img1-txt">
+                                 Настоящее определяется будущим и создает прошлое. Хакеры."Этногенез"
+                                </p>
+                                </div>
+                                <div class="project-work">
+                                    <p class="project">Технокряк</p>
+                                    <p class="work1">Веб-сайт</p>
+                                </div>
+                            </li>
+                          
+                            <li class="img1 flex-element">
+                                <div class="img1-wrap">
+                                    <img src="./img/portfolio/haker1.jpg" alt="работа" width="370" height="294">
+                                    <p class="img1-txt">
+                                        Настоящее определяется будущим и создает прошлое. Хакеры."Этногенез"
+                                    </p>
+                                </div>
+                                <div class="project-work">
+                                    <p class="project">Постер New Orlean vs Golden Star</p>
+                                    <p class="work1">Дизайн</p>
+                                </div>
+                            </li>
+                            <li class="img1 flex-element">
+                                <div class="img1-wrap">
+                                    <img src="./img/portfolio/volya(2).jpg" alt="работа" width="370" height="294">
+                                    <p class="img1-txt">
+                                        Рускій корабель,іди нах.."Погранець"
+                                    </p>
+                                </div>
+                                <div class="project-work">
+                                    <p class="project">Ресторан Seafood</p>
+                                    <p class="work1">Приложение</p>
+                                </div>
+                            </li>
+                            <li class="img1 flex-element">
+                                <div class="img1-wrap">
+                                    <img src="./img/portfolio/ass.jpg" alt="работа" width="370" height="294">
+                                    <p class="img1-txt">
+                                        Геть з України,москаль некрасивий."Народне"
+                                    </p>
+                                </div>
+                                <div class="project-work">
+                                    <p class="project">Проект Prime</p>
+                                    <p class="work1">Маркетинг</p>
+                                </div>
+                            </li>
+                            <li class="img1 flex-element">
+                                <div class="img1-wrap">
+                                    <img src="./img/portfolio/dogs.jpg" alt="работа" width="370" height="294">
+                                    <p class="img1-txt">
+                                        Якщо тобі потрібен хтось вдячний-заведи собаку
+                                    </p>
+                                </div>
+                                <div class="project-work">
+                                    <p class="project">Проект Boxes</p>
+                                    <p class="work1">Приложение</p>
+                                </div>
+                            </li>
+                            <li class="img1 flex-element">
+                                <div class="img1-wrap">
+                                    <img src="./img/portfolio/kremlin.jpg" alt="работа" width="370" height="294">
+                                    <p class="img1-txt">
+                                        Москва, поком звонят твои колокола! С.Шнуров
+                                    </p>
+                                </div>
+                                <div class="project-work">
+                                    <p class="project">Inspiration has no Borders</p>
+                                    <p class="work1">Веб-сайт</p>
+                                </div>
+                            </li>
+                            <li class="img1 flex-element">
+                                <div class="img1-wrap">
+                                    <img src="./img/portfolio/peremoga.jpg" alt="работа" width="370" height="294">
+                                    <p class="img1-txt">
+                                        Настоящее определяется будущим и создает прошлое. Хакеры."Этногенез"
+                                    </p>
+                                </div>
+                                <div class="project-work">
+                                    <p class="project">Издание Limited Edition</p>
+                                    <p class="work1">Дизайн</p>
+                                </div>
+                            </li>
+                            <li class="img1 flex-element">
+                                <div class="img1-wrap">
+                                    <img src="./img/portfolio/zalujni.jpg" alt="работа" width="370" height="294">
+                                    <p class="img1-txt">
+                                        Орка тіло ляже в грунт, допоможе ЗСУ."Народне"
+                                    </p>
+                                </div>
+                                <div class="project-work">
+                                    <p class="project">Проект HARMAS</p>
+                                    <p class="work1">Маркетинг</p>
+                                </div>
+                            </li>
+                            <li class="img1 flex-element">
+                                <div class="img1-wrap">
+                                    <img src="./img/portfolio/kozack.jpg" alt="работа" width="370" height="294">
+                                    <p class="img1-txt">
+                                        Нам не страшні московськи воші,нам страшні українськи гниди. С.Петлюра
+                                    </p>
+                                </div>
+                                <div class="project-work">
+                                    <p class="project">Growing Business</p>
+                                    <p class="work1">Приложение</p>
+                                </div>
+                            </li>
+                </ul>
+            </div>
+        </section>
+        </main>
+        <!-- Подвал -->
+        <footer class="footer">
+            <div class="container footer-container">
+                <div class="footer-box-first">
+                    <a href="./index.html" class="navigation__logo1 link">
+                        <span class="navigation__logo">Web</span><span class="studio">Studio</span></a>
+                    <address id="contaсt">
+                        <ul>
+                            <li class="foot1"><a href="https://goo.gl/maps/Qox4Wpt3PQ6pBMGy6" class="href-hedd2 link adress">г.
+                                    Киев, пр-т
+                                    Леси
+                                    Украинки,
+                                    26</a></li>
+                            <li class="foot"><a href="mailto:info@devstudio.com"
+                                    class="href-hedd2 link info">info@devstudio.com</a></li>
+                            <li class=""><a href="tel:+380961111111" 
+                                class="href-hedd2 link info">+38 096 111 11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+        
+                <div class="footer-box-second">
+                    <p class="about6">ПРИЄДНУЙТЕСЬ</p>
+                    <ul class="command-soc">
+                        <li class="command-soc-item"><a href="" class="command-soc-link link">
+                                <svg class="command-soc-icon" width="20px" height="20px">
+                                    <use href="./img/icons.svg#icon-instagram-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="command-soc-item"><a href="" class="command-soc-link link">
+                                <svg class="command-soc-icon" width="20px" height="20px">
+                                    <use href="./img/icons.svg#icon-twitter-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="command-soc-item"><a href="" class="command-soc-link link">
+                                <svg class="command-soc-icon" width="20px" height="20px">
+                                    <use href="./img/icons.svg#icon-facebook-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="command-soc-item"><a href="" class="command-soc-link link">
+                                <svg class="command-soc-icon" width="20px" height="20px">
+                                    <use href="./img/icons.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+        
+                </div>
+                <div class="footer-box-third">
+                    <p class="about6">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
+                   <form class="online-form">
+                       <input type="email" class="online-form-input" name="online-email" 
+                       placeholder="E-mail" id="online-email">
+                       <div class="input-wrap">
+                       <button type="submit" class="submit-button1 btn">Підписатися
+                           <svg class="button-send" width="24px" height="24px">
+                               <use href="./img/icons.svg#icon-icon-send"></use>
+                           </svg>
+                        </button>
+                       </div>
+                   </form>
+               
+                   
+                   </div>
+            </div>
+        </footer>
+    
+</body>
+
+</html>

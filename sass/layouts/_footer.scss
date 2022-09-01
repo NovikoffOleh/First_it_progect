@@ -1,0 +1,52 @@
+.footer {
+    padding: 60px 0;
+     background: #2F303A;
+ 
+}
+.footer-container{
+ display: flex;
+ align-items: baseline;
+ gap: 70px;
+}
+.footer-box-second{
+ margin-left: 30px;
+}
+.foot  {
+    margin-bottom: 9px;
+}
+.foot1 {
+    margin-bottom: 9px;
+    margin-top: 20px;
+}
+.footer-box-third{
+    display: block;
+    margin-left: 20px;
+    
+}
+
+.studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: var(--letter-txt);
+    color: var(--second-color-txt);
+    }
+
+.adress {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: var(--letter-txt);
+    color: var(--second-color-txt);
+}
+.info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: var(--letter-txt);
+    color: rgba(255, 255, 255, 0.6);
+}

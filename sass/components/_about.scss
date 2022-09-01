@@ -1,0 +1,152 @@
+.about-content {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about{
+    width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: var(--second-color-txt);
+    text-align: center;
+    margin: auto;
+}
+
+.about2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: var(--letter-txt);
+    color: #212121;
+    margin-bottom: 10px;
+}
+.about3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: var(--letter-txt);
+    color: #757575;
+}
+.about4 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: var(--letter-txt);
+    color: #212121;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about5 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: var(--letter-txt);
+    color: #212121;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    align-items: baseline;
+    margin-bottom: 20px;
+} 
+.txt-about .txt-about-txt+ .txt-about-txt{
+    margin-left: 30px;
+    }
+.txt-about {
+    display: flex;
+}
+.skills-about{
+        width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+}
+.txt-about-txt::before{
+    display: block;
+    content: "";
+    height: 120px;
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 30px;
+border-radius: 4px;
+}
+.img-about-txt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: rgba(47, 48, 58, 0.8);
+        padding: 27px 90px;
+        width: 100%;
+        transform: translateY(224px);
+}
+.work-view,
+.work-clients {
+display: flex;
+}
+.work-view .img-about+.img-about {
+    margin-left: 30px;
+}
+
+.img-wrap {
+    position: relative;
+}
+ 
+
+.work-clients .img-clients+.img-clients {
+    margin-left: 30px;
+}
+
+.icon-about{
+border-radius: 0px;
+&::before {
+    background-image: url(../img/antena1.svg);
+    background-color: #F5F4FA;
+    }
+}
+.icon-about1{
+    border-radius: 0px;
+    &::before {
+        background-image: url(../img/clock1.svg);
+        background-color: #F5F4FA;
+    }
+}
+    .icon-about2{
+        border-radius: 0px;
+        &::before {
+            background-image: url(../img/diagram1.svg);
+            background-color: #F5F4FA;
+        }
+    }
+    .icon-about3{
+        border-radius: 0px;
+        &::before {
+            background-image: url(../img/astronaut1.svg);
+            background-color: #F5F4FA;
+        }
+    }
+    
+
+
+   
+
