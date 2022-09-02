@@ -83,12 +83,25 @@
     align-items: baseline;
     margin-bottom: 20px;
 } 
+
 .txt-about .txt-about-txt+ .txt-about-txt{
-    margin-left: 30px;
+    @media screen and (min-width: 768px) {
+            margin-left: 30px;
+        }
+    
     }
 .txt-about {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    @media screen and (min-width: 768px) {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
 }
+
 .skills-about{
         width: 1600px;
         margin-left: auto;
