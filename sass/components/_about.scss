@@ -18,11 +18,11 @@
 .about{
     width: 100%;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    color: var(--second-color-txt);
-    text-align: center;
+        font-size: 26px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        color: var(--second-color-txt);
+        text-align: center;
     margin: auto;
     @media screen and (min-width: 480px) {
             font-family: 'Roboto';
@@ -32,9 +32,28 @@
                 line-height: 42px;
                 text-align: center;
                 letter-spacing: 0.06em;
-                text-transform: uppercase;
-                color: #FFFFFF;
+                color: var(--second-color-txt);
         }
+                 @media screen and (min-width: 768px) {
+                     font-family: 'Roboto';
+                     font-style: normal;
+                     font-weight: 900;
+                     font-size: 26px;
+                     line-height: 42px;
+                     text-align: center;
+                     letter-spacing: 0.06em;
+                     color: var(--second-color-txt);
+                 }
+                                  @media screen and (min-width: 1200px) {
+                                      font-family: 'Roboto';
+                                      font-style: normal;
+                                      font-weight: 900;
+                                      font-size: 44px;
+                                      line-height: 42px;
+                                      text-align: center;
+                                      letter-spacing: 0.06em;
+                                      color: var(--second-color-txt);
+                                  }
 }
 
 .about2 {
@@ -44,9 +63,12 @@
     letter-spacing: var(--letter-txt);
     color: #212121;
     margin-bottom: 10px;
+/*@media screen and (min-width: 480px) {
+        text-align: center;
+    }*/
 }
 .about3 {
-    font-weight: 400;
+    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: var(--letter-txt);
@@ -84,23 +106,33 @@
     margin-bottom: 20px;
 } 
 
-.txt-about .txt-about-txt+ .txt-about-txt{
-    @media screen and (min-width: 768px) {
-            margin-left: 30px;
-        }
-    
-    }
+
 .txt-about {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    @media screen and (min-width: 768px) {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-        }
+   
+   
 }
+
+/*.txt-about-txt{
+    width: 450px;
+    height: 226px;
+}*/
+.txt-about-txt::before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+/*.txt-about .txt-about-txt+.txt-about-txt {
+    margin-left: 30px;
+}*/
 
 .skills-about{
         width: 1600px;
@@ -108,15 +140,7 @@
         margin-right: auto;
         text-align: center;
 }
-.txt-about-txt::before{
-    display: block;
-    content: "";
-    height: 120px;
-background-repeat: no-repeat;
-background-position: center;
-margin-bottom: 30px;
-border-radius: 4px;
-}
+
 .img-about-txt{
     position: absolute;
     top: 0;
