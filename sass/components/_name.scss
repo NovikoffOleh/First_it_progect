@@ -1,15 +1,26 @@
 .name-command{
     box-shadow: #757575;
+    margin-bottom: 30px;
 }
 
 .img-command{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     box-shadow: #757575;
+    @media screen and (min-width: 480px) {
+            display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
+                justify-content: center;
+                box-shadow: #757575;
+        }
+    
  }
 
-.img-command .name-command +.name-command{
+/*.img-command .name-command +.name-command{
 margin-left: 30px;
-}
+}*/
 .name-work{
     padding-top: 30px;
     padding-bottom: 30px;
