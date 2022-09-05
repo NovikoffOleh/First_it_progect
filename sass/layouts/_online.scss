@@ -3,22 +3,61 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+  
 }
 .online-form-input{
-    width: 358px;
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    padding-left: 10px;
-    color: rgba(255, 255, 255, 0.6);
-     &::placeholder{
-        font-family: 'Roboto';
-        font-style: normal;
-        
-        font-size: 16px;
-        letter-spacing: 0.03em;
+
+        width: 450px;
+        height: 50px;
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        padding-left: 10px;
         color: rgba(255, 255, 255, 0.6);
-        margin-left: 10px;
+        &::placeholder {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-size: 16px;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+            margin-left: 10px;
         }
-    }
+                @media screen and (min-width: 768px) {
+                    width: 450px;
+                    height: 50px;
+                    background-color: transparent;
+                        border: 1px solid rgba(255, 255, 255, 0.3);
+                        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+                        border-radius: 4px;
+                        padding-left: 10px;
+                        color: rgba(255, 255, 255, 0.6);
+                    
+                        &::placeholder {
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-size: 16px;
+                            letter-spacing: 0.03em;
+                            color: rgba(255, 255, 255, 0.6);
+                            margin-left: 10px;
+                }
+                                
+                @media screen and (min-width: 1200px) {
+                 width: 358px;
+                background-color: transparent;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+                border-radius: 4px;
+                padding-left: 10px;
+                color: rgba(255, 255, 255, 0.6);
+                &::placeholder {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-size: 16px;
+                    letter-spacing: 0.03em;
+                    color: rgba(255, 255, 255, 0.6);
+                    margin-left: 10px;
+                }
+         }
+    }      
+}

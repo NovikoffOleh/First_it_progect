@@ -15,45 +15,48 @@
         }
 
 }
-.about{
+.about {
     width: 100%;
     font-weight: 900;
+    font-size: 26px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: var(--second-color-txt);
+    text-align: center;
+    margin: auto;
+
+    @media screen and (min-width: 480px) {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
         font-size: 26px;
-        line-height: 1.36;
+        line-height: 42px;
+        text-align: center;
         letter-spacing: 0.06em;
         color: var(--second-color-txt);
+    }
+
+    @media screen and (min-width: 768px) {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
         text-align: center;
-    margin: auto;
-    @media screen and (min-width: 480px) {
-            font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 900;
-                font-size: 26px;
-                line-height: 42px;
-                text-align: center;
-                letter-spacing: 0.06em;
-                color: var(--second-color-txt);
-        }
-                 @media screen and (min-width: 768px) {
-                     font-family: 'Roboto';
-                     font-style: normal;
-                     font-weight: 900;
-                     font-size: 26px;
-                     line-height: 42px;
-                     text-align: center;
-                     letter-spacing: 0.06em;
-                     color: var(--second-color-txt);
-                 }
-                                  @media screen and (min-width: 1200px) {
-                                      font-family: 'Roboto';
-                                      font-style: normal;
-                                      font-weight: 900;
-                                      font-size: 44px;
-                                      line-height: 42px;
-                                      text-align: center;
-                                      letter-spacing: 0.06em;
-                                      color: var(--second-color-txt);
-                                  }
+        letter-spacing: 0.06em;
+        color: var(--second-color-txt);
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--second-color-txt);
+    }
 }
 
 .about2 {
