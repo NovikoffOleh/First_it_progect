@@ -66,9 +66,12 @@
     letter-spacing: var(--letter-txt);
     color: #212121;
     margin-bottom: 10px;
-/*@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {
         text-align: center;
-    }*/
+    }
+        @media screen and (min-width: 768px) {
+            text-align: left;
+        }
 }
 .about3 {
     
@@ -96,22 +99,34 @@
     margin-bottom: 50px;
 }
 
-
-
-
 .txt-about {
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
-   
-   
+    gap: 30px;*/
+@media screen and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+    }
+        @media screen and (min-width: 1200px) {
+                display: flex;
+                justify-content: center;
+                
+                    }
+                
+        }
+
+.txt-about-txt{
+    @media screen and (min-width: 768px) {
+            width: 354px;
+            height: 224px;
+            
+        }
+        
 }
 
-/*.txt-about-txt{
-    width: 450px;
-    height: 226px;
-}*/
+
 .txt-about-txt::before {
     display: block;
     content: "";

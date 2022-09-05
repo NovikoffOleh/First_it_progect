@@ -290,9 +290,16 @@ body {
   letter-spacing: var(--letter-txt);
   color: #212121;
   margin-bottom: 10px;
-  /*@media screen and (min-width: 480px) {
-          text-align: center;
-      }*/
+}
+@media screen and (min-width: 480px) {
+  .about2 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about2 {
+    text-align: left;
+  }
 }
 
 .about3 {
@@ -323,21 +330,39 @@ body {
 }
 
 .txt-about {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 30px;
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;*/
+}
+@media screen and (min-width: 768px) {
+  .txt-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .txt-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
-/*.txt-about-txt{
-    width: 450px;
-    height: 226px;
-}*/
+@media screen and (min-width: 768px) {
+  .txt-about-txt {
+    width: 354px;
+    height: 224px;
+  }
+}
+
 .txt-about-txt::before {
   display: block;
   content: "";
@@ -728,7 +753,7 @@ margin-left: 30px;
 }
 @media screen and (min-width: 1200px) {
   .footer-box-third {
-    width: 600px;
+    width: 570px;
     height: 156px;
   }
 }
