@@ -362,6 +362,12 @@ body {
     height: 224px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .txt-about-txt {
+    width: 270px;
+    height: 248px;
+  }
+}
 
 .txt-about-txt::before {
   display: block;
