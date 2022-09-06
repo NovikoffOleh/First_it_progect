@@ -38,6 +38,12 @@
     .modal-close:focus &{
         fill: var(--second-color);
     }
+    .menu-close-btn:focus & {
+            fill: var(--second-color);
+        }
+    .menu-close-btn:hover & {
+    fill: var(--second-color);
+                }
 }
 .submit-button {
 display: block;
