@@ -29,14 +29,19 @@ body {
     background-color: #F5F4FA;
 }
 .section2a {
+   
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
     
 }
 .section3 {
-    
+    display: none;
     padding-bottom: 94px;
+    @media screen and (min-width: 1200px) {
+        display: block;
+        padding-bottom: 94px;
+        }
 }
 .section4 {
     
