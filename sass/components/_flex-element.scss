@@ -54,7 +54,17 @@ font-family: 'Roboto';
     flex-wrap: wrap;
     margin-top: 50px;
     gap: 30px;
+    justify-content: center;
     @media screen and (min-width: 480px) {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 28px;
             justify-content: center;
         }
+                 @media screen and (min-width: 1200px) {
+                     display: flex;
+                     flex-wrap: wrap;
+                     gap: 30px;
+                     justify-content: center;
+                 }
 }
