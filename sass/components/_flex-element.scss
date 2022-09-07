@@ -3,6 +3,9 @@
     width: 370px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+
+    
+
 }
 .img1{
     border-radius: 1px;
@@ -51,21 +54,30 @@ font-family: 'Roboto';
     margin-left: 30px;
 }
 .img-project{
+    
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
     gap: 30px;
     justify-content: center;
     @media screen and (min-width: 480px) {
-            display: flex;
+            
+        display: flex;
             flex-wrap: wrap;
             gap: 28px;
             justify-content: center;
         }
+                @media screen and (min-width: 768px) {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 28px;
+                    justify-content: center;
+
                  @media screen and (min-width: 1200px) {
                      display: flex;
                      flex-wrap: wrap;
                      gap: 30px;
                      justify-content: center;
                  }
+}
 }
