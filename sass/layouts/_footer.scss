@@ -1,15 +1,26 @@
 .footer {
-   
     /*margin-top: 60px;*/
     padding: 60px 0;
     background: #2F303A;
+    @media screen and (min-width: 480px) {
+            width: 480px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            width: 768px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 1200px;
+        }
 }
 .footer-container{
+ width: 100%;
  display: flex;
  flex-wrap: wrap;
  align-items: baseline;
  justify-content: center;
- gap: 60px;
+ gap: 80px;
 }
 .info-con{
     @media screen and (min-width: 480px) {
