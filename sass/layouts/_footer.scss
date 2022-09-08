@@ -1,8 +1,8 @@
 .footer {
-    /*margin-top: 60px;*/
+    margin-top: 60px;
     padding: 60px 0;
     background: #2F303A;
-    @media screen and (min-width: 480px) {
+    /*@media screen and (min-width: 480px) {
             width: 480px;
         }
     
@@ -13,7 +13,8 @@
         @media screen and (min-width: 1200px) {
             width: 1200px;
         }
-}
+}*/
+
 .footer-container{
  width: 100%;
  display: flex;
@@ -189,4 +190,5 @@
         color: var(--second-color);
     }
 
+}
 }
