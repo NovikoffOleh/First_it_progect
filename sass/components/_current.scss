@@ -1,3 +1,6 @@
+.current {
+    color: #2196F3;
+}
 .current::after{
     content: "";
     display: block;
@@ -7,5 +10,5 @@
     border-radius: 2px;
     bottom: -32px;
     left: 0;
-    background-color: currentColor;
+    background-color: #2196F3;
 }
