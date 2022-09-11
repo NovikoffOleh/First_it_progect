@@ -89,8 +89,14 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .section2a {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .section3 {
@@ -164,11 +170,18 @@ body {
 .navigation__list {
   /*display: flex;*/
   display: none;
-  margin-left: 70px;
+  margin-left: 87px;
 }
 @media screen and (min-width: 768px) {
   .navigation__list {
     display: flex;
+    margin-left: 87px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navigation__list {
+    display: flex;
+    margin-left: 93px;
   }
 }
 
@@ -821,8 +834,8 @@ body {
 .href-hedd {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   color: #757575;
   display: flex;
   align-items: center;
@@ -946,7 +959,12 @@ margin-left: 30px;
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: center;
-  gap: 95px;
+  gap: 60px;
+}
+@media screen and (max-width: 480px) {
+  .footer-container {
+    gap: 60px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -982,25 +1000,48 @@ margin-left: 30px;
 .foot {
   margin-bottom: 9px;
 }
+@media screen and (min-width: 480px) {
+  .foot {
+    margin-bottom: 8px;
+  }
+}
 
 .foot1 {
   margin-bottom: 9px;
   margin-top: 20px;
 }
+@media screen and (min-width: 480px) {
+  .foot1 {
+    margin-bottom: 8px;
+  }
+}
+
+.foot2 {
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-box-second {
+    margin-left: 165px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-box-second {
+    margin-left: 0px;
+  }
+}
 
 .footer-box-third {
-  margin-top: 30px;
+  /*margin-top: 30px;*/
 }
 @media screen and (min-width: 768px) {
   .footer-box-third {
     width: 450px;
-    height: 156px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer-box-third {
     width: 570px;
-    height: 156px;
   }
 }
 
@@ -1096,11 +1137,6 @@ margin-left: 30px;
   }
 }
 
-/*.footer-box-third{
-    display: block;
-    margin-left: 20px;
-
-}*/
 .studio {
   font-family: "Raleway";
   font-style: normal;
@@ -1132,8 +1168,8 @@ margin-left: 30px;
 .href-hedd1 {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   color: white;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1147,8 +1183,8 @@ margin-left: 30px;
 .href-hedd2 {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

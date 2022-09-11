@@ -28,10 +28,15 @@ color: var(--second-color);
 .navigation__list{
     /*display: flex;*/
     display: none;
-    margin-left: 70px;
+    margin-left: 87px;
     @media screen and (min-width: 768px) {
             display: flex;
+            margin-left: 87px;
         }
+                @media screen and (min-width: 1200px) {
+                    display: flex;
+                    margin-left: 93px;
+                }
 }
 .navigation__list, .navigation__item {
     margin-right: 50px;
