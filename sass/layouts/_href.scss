@@ -17,4 +17,10 @@
             &:focus {
             color: var(--second-color);
             }
+                         @media screen and (max-width: 768px) {
+                            font-size: 12px;
+                         }
+                         @media screen and (max-width: 1199px) {
+                        font-size: 12px;
+                         }
     }

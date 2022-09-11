@@ -423,20 +423,24 @@ body {
   padding-bottom: 118px;
   margin-left: auto;
   margin-right: auto;
-}
-@media screen and (min-width: 480px) {
-  .about-content {
-    padding: 118px 60px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (min-width: 768px) {
-  .about-content {
-    padding: 118px 204px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  /*@media screen and (min-width: 480px) {
+          padding: 118px 60px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+          @media screen and (min-width: 768px) {
+          /*padding: 118px 204px;
+          padding-top: 118px;
+          padding-bottom: 118px;
+
+          margin-left: auto;
+          margin-right: auto;
+      }
+              /*@media screen and (max-width: 1199px) {
+                  padding: 118px 204px;
+                  margin-left: auto;
+                  margin-right: auto;
+              }*/
 }
 @media screen and (min-width: 1200px) {
   .about-content {
@@ -459,6 +463,9 @@ body {
 }
 @media screen and (min-width: 480px) {
   .about {
+    width: 360px;
+    left: 60px;
+    top: 118px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
@@ -471,6 +478,9 @@ body {
 }
 @media screen and (min-width: 768px) {
   .about {
+    width: 360px;
+    left: 204px;
+    top: 118px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
@@ -824,6 +834,16 @@ body {
 }
 .href-hedd:focus {
   color: var(--second-color);
+}
+@media screen and (max-width: 768px) {
+  .href-hedd {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .href-hedd {
+    font-size: 12px;
+  }
 }
 
 .name-command {

@@ -3,16 +3,24 @@
     padding-bottom: 118px;
     margin-left: auto;
     margin-right: auto;
-    @media screen and (min-width: 480px) {
+    /*@media screen and (min-width: 480px) {
             padding: 118px 60px;
             margin-left: auto;
             margin-right: auto;
         }
-    @media screen and (min-width: 768px) {
-            padding: 118px 204px;
+            @media screen and (min-width: 768px) {
+            /*padding: 118px 204px;
+            padding-top: 118px;
+            padding-bottom: 118px;
+            
             margin-left: auto;
             margin-right: auto;
         }
+                /*@media screen and (max-width: 1199px) {
+                    padding: 118px 204px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }*/
                 @media screen and (min-width: 1200px) {
                     padding-top: 200px;
                     padding-bottom: 200px;
@@ -32,6 +40,9 @@
     margin: auto;
 
     @media screen and (min-width: 480px) {
+        width: 360px;
+        left: 60px;
+        top: 118px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -41,8 +52,10 @@
         letter-spacing: 0.06em;
         color: var(--second-color-txt);
     }
-
     @media screen and (min-width: 768px) {
+        width: 360px;
+        left: 204px;
+        top: 118px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -52,7 +65,6 @@
         letter-spacing: 0.06em;
         color: var(--second-color-txt);
     }
-
     @media screen and (min-width: 1200px) {
                 width: 696px;
                 height: 120px;
